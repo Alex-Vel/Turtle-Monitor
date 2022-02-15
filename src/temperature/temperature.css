@@ -1,0 +1,150 @@
+#card{
+    background-color: #27408B;
+    color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 20px 2px 20px 2px;
+    max-Width: 345px;
+    height:230px;
+}
+
+
+
+#mui-card{
+    background-color: #27408B;
+    color:white;
+    font-size: 15px;
+    margin: auto;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px 2px 20px 2px;
+    margin-top: 20px;
+    border:#27408B;
+    height:230px;
+}
+
+.MuiCardHeader-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#mui-content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+.column_1 {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.column_2 {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.row{
+    margin:50px;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .column_1 {
+      width: 100%;
+    }
+    .column_2 {
+        width: 100%;
+      }
+}
+#p5{
+    color:#27408B;
+    font-size: 19px;
+    font-weight: 500;
+    max-width:345px;
+    margin: auto;
+}
+
+#p6{
+    max-width:345px;
+    margin: auto;
+    color:#27408B;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+#p7{
+    margin: auto;
+    margin-top:40px;
+    color:#27408B;
+    font-size: 19px;
+    font-weight: 500;
+}
+#p8{
+    margin:5px;
+    margin-top:10px;
+}
+
+#Temperature{
+    border-radius: 10px;
+    border-color: #27408B;
+    border-width: 2px;
+}
+
+#Humidity{
+    border-radius: 10px;
+    border-color: #27408B;
+    border-width: 2px;
+}
+
+#button_copyFridge{
+    color:white;
+    font-size:5px;
+    background-color: #27408B;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    visibility:hidden;
+}
+
+#form{
+    color:white;
+    background-color: #27408B;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:1px;
+}
+
+#button_submit{
+    color:white;
+    font-size:15px;
+    background-color: #27408B;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px;
+}
+
+#TemperatureSeries{
+    background-color: #27408B;
+    border-radius: 20px 2px 20px 2px;
+    max-width: 1010px;
+    margin:auto;
+    margin-bottom:20px;
+    margin-top: 20px;
+    color: white;
+}

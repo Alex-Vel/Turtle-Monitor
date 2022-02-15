@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: white;
+  color: #191970;
+  padding:0px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin:0px;
+}
+
+#body{
+  margin:10px;
+}
+
+
+.MuiAppBar-positionSticky{
+  background-color:#27408B !important;
+  color: white;
+  text-align: center;
+  font-family: Optima, sans-serif;
+  padding-bottom: 20px;
+  margin-bottom:50px;
+  
+}
+
+.MuiAppBar-positionSticky:after {
+  content: "";
+  position:absolute;
+  top:-40px;
+  left:0;
+  height:40px;
+  width: 40px;
+  border-bottom-left-radius: 50%;
+  background:white;
+}
+
+h1#firstH{
+  font-size: 10vw;
+  font-family: Optima, sans-serif;
+  margin:auto;
+}
+
+h1#secondH{
+  font-size: 3vw;
+  font-weight:normal;
+  padding-top: 5px;
+  margin: 0;
+  padding: 0;
+  position: static;
+  font-family: Optima, sans-serif;
+}
+
+#p1{
+  font-size: 7vw;
+  font-weight: bold;
+  position: static; 
+  font-family: Optima, sans-serif;
+  margin:5px;
+}
+
+#p2{
+  padding: 10px;
+  font-size: 3vw;
+  position: static; 
+  font-family: Optima, sans-serif;
+  margin:5px;
+}
+
+#p3{
+  margin: 20px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#button{
+  color:white;
+  position: absolute;
+  top: 30px; 
+  right: 50px; 
+  background-color: #27408B;
+  cursor: pointer;
+  font-family: Optima, sans-serif;
+  font-size: 15px;
+}
+
+.MuiToolbar-root{
+  justify-content: space-between;
+  text-align: center;
+  margin-left:2%;
+  margin-right: 2%;
+  margin-top: 2%;
+
+}
+
+#Logged-out{
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom:20px;
+  height:150px;
+  width: 150px;
+}
+
+#Logged-in{
+  height:150px;
+  width: 150px;
+}
