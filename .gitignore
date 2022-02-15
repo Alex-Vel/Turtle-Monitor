@@ -45,7 +45,8 @@ jspm_packages/
 # firebase 
 
 firebase.json
-firebaserc
+.firebaserc
+src/firebaseconfig.js
 
 # TypeScript v1 declaration files
 typings/
