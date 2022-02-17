@@ -2,13 +2,11 @@ import './firebaseconfig.js';
 import React, { useEffect, useState } from 'react';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import {getAuth, onAuthStateChanged, signOut, EmailAuthProvider, GoogleAuthProvider} from 'firebase/auth'
-import TemperatureInput from './temperature/TemperatureInput.js';
 import TemperatureCurrent from "./temperature/TemperatureCurrent.js";
-import TemperatureSeries from './temperature/TemperatureSeries.js';
 import { AppBar, Toolbar, IconButton, Avatar, Tooltip, Menu, MenuItem, Typography} from '@mui/material';
 import PersonIcon from '@mui/icons-material/Person';
 import './App.css';
-import logowhite from './logowhite.png'
+import logo from './logo.png'
 
 
 //Created with FirebaseUI Example Code
@@ -49,7 +47,7 @@ function App() {
       <div>
         <AppBar position="sticky" color="primary">
         <Toolbar>
-          <img id="Logged-out" src={logowhite} alt="logo"/>        
+          <img id="Logged-out" src={logo} alt="logo" sx={{width: '100px', height: '50px' }}/>      
         </Toolbar>
         </AppBar>
         <p id="p3">Please sign-in:</p>
@@ -61,7 +59,7 @@ function App() {
     <div id="root">
       <AppBar position="sticky" color="primary">
         <Toolbar>
-        <img id="Logged-in" src={logowhite} alt="logo"/>
+        <img id="Logged-in" src={logo} alt="logo" sx={{width: '100%', height: '50%' }}/>
           <Typography id="p1">Welcome {auth.currentUser.displayName}</Typography>
           <Tooltip title="Open settings">
             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
@@ -111,12 +109,7 @@ function App() {
              
             </div>
           
-        <div id="p7">
-          <p>
-           Turtle habitat temperature timeline:
-          </p>
-        </div>
-      <TemperatureSeries />
+  
       </div>
       </div>
       
