@@ -1,12 +1,13 @@
 import '../src/firebaseconfig.js';
 import {getFirestore, collection, getDocs, onSnapshot } from "firebase/firestore";
-import {getAuth, onAuthStateChanged, signOut, EmailAuthProvider} from 'firebase/auth'
+import {getAuth, onAuthStateChanged, signOut, EmailAuthProvider, signInWithEmailAndPassword} from 'firebase/auth'
 
 
 //login test
 describe('firebase login tests', function () {
     this.timeout(500);
 
+    const auth = getAuth()
 const logInWithEmailAndPassword = async (email, password) => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
@@ -18,8 +19,8 @@ const logInWithEmailAndPassword = async (email, password) => {
 
   
   it('should take less than 500ms', function (done) {
+  logInWithEmailAndPassword("test@tester.com","test123")
   setTimeout(done, 300);
-  logInWithEmailAndPassword("test@test.com","test123")
 });
 
 })
