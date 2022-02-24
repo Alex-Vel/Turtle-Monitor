@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.8700" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-02-24T18:11:13" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="firebase login tests" timestamp="2022-02-24T18:11:13" tests="1" file="C:\Users\epyon\Desktop\Turtle-Monitor\test\test.js" time="0.5160" failures="0">
+    <testcase name="firebase login tests Login successfull" time="0.5130" classname="Login successfull">
+    </testcase>
+  </testsuite>
+  <testsuite name="firebase firestore tests" timestamp="2022-02-24T18:11:13" tests="1" file="C:\Users\epyon\Desktop\Turtle-Monitor\test\test.js" time="0.3490" failures="0">
+    <testcase name="firebase firestore tests retrieve data successfully" time="0.3470" classname="retrieve data successfully">
+    </testcase>
+  </testsuite>
+  <testsuite name="firebase logout tests" timestamp="2022-02-24T18:11:14" tests="1" file="C:\Users\epyon\Desktop\Turtle-Monitor\test\test.js" time="0.0040" failures="0">
+    <testcase name="firebase logout tests Login successfull" time="0.0010" classname="Login successfull">
+    </testcase>
+  </testsuite>
+</testsuites>
