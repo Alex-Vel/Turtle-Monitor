@@ -13,7 +13,7 @@
 
 
 #mui-card{
-    background-color: #27408B;
+    background-color: #005522;
     color:white;
     font-size: 15px;
     margin: auto;
@@ -116,7 +116,7 @@
 #button_copyFridge{
     color:white;
     font-size:5px;
-    background-color: #27408B;
+    background-color: #005522;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     visibility:hidden;
@@ -124,7 +124,7 @@
 
 #form{
     color:white;
-    background-color: #27408B;
+    background-color: #005522;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     margin:1px;
@@ -133,14 +133,14 @@
 #button_submit{
     color:white;
     font-size:15px;
-    background-color: #27408B;
+    background-color: #005522;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     margin:10px;
 }
 
 #TemperatureSeries{
-    background-color: #27408B;
+    background-color: #005522;
     border-radius: 20px 2px 20px 2px;
     max-width: 1010px;
     margin:auto;
