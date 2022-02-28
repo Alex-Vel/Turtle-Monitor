@@ -35,7 +35,6 @@ export class TemperatureCurrent extends Component {
     }
 
     componentDidUpdate(){
- 
     
     }
 
