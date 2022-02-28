@@ -39,7 +39,6 @@ export class TemperatureCurrent extends Component {
     
     }
 
-
     render() {
         return (
             <Card id="mui-card" sx={{ maxWidth: 345 }} variant="outlined">
