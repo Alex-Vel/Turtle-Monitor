@@ -1,7 +1,7 @@
 import './firebaseconfig.js';
 import React, { useEffect, useState } from 'react';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
-import {getAuth, onAuthStateChanged, signOut, EmailAuthProvider, GoogleAuthProvider} from 'firebase/auth'
+import {getAuth, onAuthStateChanged, signOut, EmailAuthProvider} from 'firebase/auth'
 import TemperatureCurrent from "./temperature/TemperatureCurrent.js";
 import { AppBar, Toolbar, IconButton, Avatar, Tooltip, Menu, MenuItem, Typography} from '@mui/material';
 import PersonIcon from '@mui/icons-material/Person';
